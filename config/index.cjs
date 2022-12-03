@@ -13,23 +13,23 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: 'e057c0383a6009791de7e656619e224c',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '辽宁',
+  CITY: '沈阳',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '管安琪小宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oKi9C6VL3NuNod0ZN-xj6z6MglWg',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'Rc_oFiqxVFFP59pOuvP_JaZGRmLy6SrDsM4sajkwlpM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '05-24',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1999', date: '05-24',
+          type: '*生日', name: '管安琪宝贝', year: '1999', date: '05-24',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -44,7 +44,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2022-04-28' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        //{ keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
   ],
